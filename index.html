@@ -87,7 +87,7 @@
                             <table class="table table-bordered border-dark">
                                 <tr>
                                     <td>Total Marks:</td>
-                                    <td>525</td>
+                                    <td>600</td>
                                 </tr>
                                 <tr>
                                     <td>Obtained Marks:</td>
@@ -137,11 +137,11 @@
                 else {
                     let obtain = a + b + c + d + e + f + g;
                     document.getElementById('obtain').innerHTML = obtain;
-                    let per = (obtain / 525) * 100;
+                    let per = (obtain / 600) * 100;
                     document.getElementById('per').innerHTML = per.toFixed(2);
 
 
-                    if (obtain > 200 || obtain < 0) {
+                    if (obtain > 300 || obtain < 0) {
                         document.getElementById('remarks').innerHTML = "<span class='text-success'>Pass</span>";
                     } else {
                         document.getElementById('remarks').innerHTML = "<span class='text-danger'>Fail</span>";
